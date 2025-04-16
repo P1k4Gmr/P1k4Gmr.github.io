@@ -1,0 +1,34 @@
+h1 {
+    font-family: 'Arial', sans-serif; /* Sets the font family to Arial or a fallback sans-serif font */
+    font-size: 2.5em; /* Increases the font size to make the heading prominent */
+    font-weight: bold; /* Makes the text bold */
+    color: #4c005c; /* Sets the text color to green */
+    text-align: center; /* Centers the text horizontally */
+    text-transform: uppercase; /* Converts all text to uppercase */
+    letter-spacing: 2px; /* Adds spacing between letters for better readability */
+}
+body {
+    background-color: #000000; /* Sets a light gray background color */
+    color: #4c005c; /* Sets the text color to dark gray for better contrast */
+}
+
+button {
+    background-color: #ffffff; /* Sets the button background color to green */
+    color: purple; /* Sets the button text color to white */
+    padding: 10px 20px; /* Adds padding inside the button for better spacing */
+    border-radius: 64px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+button:hover {
+    background-color: #1100ff; /* Changes the button background color on hover for a visual effect */
+}
+a {
+    color: #0077cc; /* Sets the link color to blue */
+    text-decoration: none; /* Removes the underline from the link */
+    transition: text 0.3s ease; /* Adds a smooth transition effect when the color changes */
+}
+
+a:hover {
+    color: #000000; /* Changes the link color to green when hovered */
+}
